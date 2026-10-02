@@ -1,3 +1,5 @@
+> **提交位置说明：**代码、README、分析报告、loss 曲线、训练与评测日志等，必须提交到**面试方提供并分配给该候选人的独立 GitHub 仓库**。训练好的 LoRA SFT 和第二阶段优化模型，必须上传到**候选人自己的 Hugging Face 账号下创建的模型仓库**（`https://huggingface.co/<你的用户名>/<模型仓库名>`），设置为 **Public**，并将两个模型链接及 revision 写入面试方提供的 GitHub 仓库 README 后提交给面试方。
+
 # 模型训练研究员笔试提交指南
 
 以 [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) 完成自建数据、LoRA/QLoRA SFT、SFT 后第二阶段优化，并在 **SWE-bench Pro v2-hard、HLE、ASI-Bench、Terminal-Bench** 上完成三组模型对比。
